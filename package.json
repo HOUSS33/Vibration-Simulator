@@ -1,9 +1,12 @@
 {
   "name": "gateway-simulator",
   "version": "1.0.0",
-  "type": "module",  
+  "type": "module",
+  "main": "gateway-simulator.js",
+  "scripts": {
+    "start": "node gateway-simulator.js"
+  },
   "dependencies": {
     "mqtt": "^5.0.0"
-
   }
 }
